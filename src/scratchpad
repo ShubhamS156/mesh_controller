@@ -1,0 +1,12 @@
+why is the mesh controller sending a broadcast message?
+
+change code such that the nodes send data only to the gateway nodes.
+After the above implementation we'll have to put dummy nodes throughout the
+campus.
+
+Add a oled display to the mesh_controller to display node_id required to
+send data directly to this controller and to display ip in case of 
+config mode.
+
+
+change pins to use gpios to send data to gateway instead of rx tx
